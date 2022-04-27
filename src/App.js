@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header greeting= "Welcome to Sentient Animal Petting Zoo"/>
+        <Header greeting= "Welcome to Self Aware Animal Petting Zoo"/>
       </header>
       <Main animals={ animals }/>
       <footer className='App-footer'>
