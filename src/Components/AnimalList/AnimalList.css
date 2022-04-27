@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.animalImg{
+    height: 100px;
+}
+
+.animalCard{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: Archivo Black;
+}
+
+.animalCard h3, p{
+    margin: 5px;
+    padding: 0;
+}
+
+

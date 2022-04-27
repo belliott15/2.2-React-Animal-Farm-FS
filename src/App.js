@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Components/Header/Header.js';
+import Main from './Components/Main/Main.js';
+import Footer from './Components/Footer/Footer.js';
+import { animals } from './data.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header greeting= "Welcome to Self Aware Animal Petting Zoo"/>
       </header>
+      <Main animals={ animals }/>
+      <footer className='App-footer'>
+        <Footer email="AnimalTherapist@theyarerioting.com" />
+      </footer>
     </div>
   );
 }
