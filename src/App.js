@@ -13,7 +13,7 @@ function App() {
       </header>
       <Main animals={ animals }/>
       <footer className='App-footer'>
-        <Footer email="Alchemy@alchemy.com" />
+        <Footer email="AnimalTherapist@theyarerioting.com" />
       </footer>
     </div>
   );
