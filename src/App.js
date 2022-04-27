@@ -10,9 +10,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header greeting= "Welcome to Sentient Animal Petting Zoo"/>
-        <Main animals={ animals }/>
-        <Footer email="Alchemy@alchemy.com" />
       </header>
+      <Main animals={ animals }/>
+      <footer className='App-footer'>
+        <Footer email="Alchemy@alchemy.com" />
+      </footer>
     </div>
   );
 }

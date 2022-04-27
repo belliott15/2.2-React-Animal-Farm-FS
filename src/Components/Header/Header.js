@@ -3,6 +3,6 @@ import React from 'react';
 
 export default function Header({ greeting }){
   return (
-    <div>{greeting}</div>
+    <div className='header'>{greeting}</div>
   );
 }
