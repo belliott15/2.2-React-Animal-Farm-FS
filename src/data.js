@@ -18,7 +18,7 @@ export const animals = [
     type: 'goose',
     says: 'Run pig! Be free! I would if I could.',
     top: '370px',
-    left: '65%',
+    left: '60%',
   },
   {
     name: 'Wilbur the Pig',
@@ -33,6 +33,7 @@ export const animals = [
     says: 'Never hurry and never worry!',
     top: '260px',
     left: '72%',
+    size: '50px',
   },
   {
     name: 'Samuel the Sheep',
